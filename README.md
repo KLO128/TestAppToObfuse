@@ -3,7 +3,7 @@
 ## My Changes in LoGiC.NET
 I had to made some **cosmetic changes** in LoGiC.NET for my needs.
 
-1. I have excluded `InvalidMetadata` protection, because IIS server does not support such protected libraries with invalid metadata.
+1. I have excluded `InvalidMetadata` protection, because IIS server does not support such a protection of libraries with invalid metadata.
    ``` CSharp
    Protection[] protections = new Protection[]
         {
