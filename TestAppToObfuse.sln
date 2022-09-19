@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAppToObfuse", "TestAppToObfuse\TestAppToObfuse.csproj", "{D5B4A1A3-2292-4C39-B20E-822D59C37B12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAppToObfuse.Services", "TestAppToObfuse.Services\TestAppToObfuse.Services.csproj", "{1D5A09A9-967A-4828-8527-BE96BFE39325}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAppToObfuse.Services.Impl", "TestAppToObfuse.Services.Impl\TestAppToObfuse.Services.Impl.csproj", "{0FFA43D9-D976-45BB-BED6-550539DD7807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{CA2EF2B6-4183-42C6-BFB2-259F91B005FA}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\DLL-HERE.txt = Libs\DLL-HERE.txt
+		Libs\TestAppToObfuse.Services.dll = Libs\TestAppToObfuse.Services.dll
+		Libs\TestAppToObfuse.Services.Impl.dll = Libs\TestAppToObfuse.Services.Impl.dll
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAppToObfuse2", "TestAppToObfuse2\TestAppToObfuse2.csproj", "{7EEB5509-1890-435D-861B-3E870CA6D987}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{74FB97CD-AD72-4E8C-82D7-866AD0B05A4E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5B4A1A3-2292-4C39-B20E-822D59C37B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B4A1A3-2292-4C39-B20E-822D59C37B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B4A1A3-2292-4C39-B20E-822D59C37B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B4A1A3-2292-4C39-B20E-822D59C37B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5A09A9-967A-4828-8527-BE96BFE39325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5A09A9-967A-4828-8527-BE96BFE39325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5A09A9-967A-4828-8527-BE96BFE39325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5A09A9-967A-4828-8527-BE96BFE39325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFA43D9-D976-45BB-BED6-550539DD7807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFA43D9-D976-45BB-BED6-550539DD7807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFA43D9-D976-45BB-BED6-550539DD7807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFA43D9-D976-45BB-BED6-550539DD7807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEB5509-1890-435D-861B-3E870CA6D987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEB5509-1890-435D-861B-3E870CA6D987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEB5509-1890-435D-861B-3E870CA6D987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEB5509-1890-435D-861B-3E870CA6D987}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75A06D04-231A-49C8-A06A-E111C51E25CE}
+	EndGlobalSection
+EndGlobal
