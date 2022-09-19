@@ -48,7 +48,7 @@ I had to made some **cosmetic changes** in LoGiC.NET for my needs.
    ProxyCallsIntensity: 0
    ```
 ## My Project Issue
-**In my project, I came to the exception of calling an internal method with the original name in the same class's public constructor, but the declaration of the method was renamed after the obfuscation!!! :-(**
+**In my project, I came to an exception of calling an internal method with the original name in the same class's public constructor, but the declaration of the method was renamed after the obfuscation!!! :-(**
 
 - I think it could be caused by not supported version of .NET (.NET 6).
 - ...or there must be some issue with the privacy: The constructor's public modifier, where it is called, **is not the privacy modifier of the called method.** I think, that program attaches wrong metadata of privacy to this method in some code branch, and it assumes it is public, so it does not rename it when calling it.
