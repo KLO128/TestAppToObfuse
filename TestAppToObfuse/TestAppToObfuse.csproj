@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="TestAppToObfuse.Services">
+      <HintPath>..\Libs\TestAppToObfuse.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="TestAppToObfuse.Services.Impl">
+      <HintPath>..\Libs\TestAppToObfuse.Services.Impl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

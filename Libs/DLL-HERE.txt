@@ -1,0 +1,3 @@
+Place here obfuscated libs:
+	TestAppToObfuse.Services.dll
+	TestAppToObfuse.Services.Impl.dll
